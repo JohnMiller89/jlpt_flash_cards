@@ -1,0 +1,77 @@
+.color-primary-0 {
+  color: #076d62;
+} /* Main Primary color */
+.color-primary-1 {
+  color: #a1ebe3;
+}
+.color-primary-2 {
+  color: #118377;
+}
+.color-primary-3 {
+  color: #005a50;
+}
+.color-primary-4 {
+  color: #00433c;
+}
+
+.bg-color-teal {
+  background-color: #118377;
+  color: rgba(223, 219, 219, 0.938);
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  margin-top: 0px;
+  height: 100%;
+}
+
+.nav-div {
+  width: 15%;
+  height: 100%;
+  float: left;
+  font-size: larger;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.top-nav-div {
+  width: 85%;
+  float: right;
+  padding-top: 5.5%;
+}
+.content-div {
+  height: 100%;
+  min-height: 100%;
+  word-wrap: break-word;
+  border: black;
+}
+.style-padding-small {
+  padding: 0.3em;
+}
+.nav-div a:link {
+  color: rgba(223, 219, 219, 0.938);
+  text-decoration: none;
+}
+
+/* visited link */
+.nav-div a:visited {
+  color: rgba(223, 219, 219, 0.938);
+  text-decoration: none;
+}
+.nav-div a:visited {
+  color: rgba(223, 219, 219, 0.938);
+  text-decoration: none;
+}
+
+.site-name-image {
+  height: 15%;
+  /*background-color: #a1ebe3;*/
+  background-image: url("../JLPT_logo.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+}
